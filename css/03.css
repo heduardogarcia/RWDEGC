@@ -1,0 +1,25 @@
+.oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    text-align: center;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.precio {
+    font-size: 4rem;
+    margin: 0;
+}
+/*siempre debe ir del mas grande al mas pequeño para 
+el desktop first y en mobile first al contrario*/
+@media (max-width: 800px) {
+    .oferta{
+         max-width: 40rem;
+    }
+ } 
+@media (max-width: 600px) {
+    .oferta{
+        max-width: 100%;
+    }
+
+}
+
