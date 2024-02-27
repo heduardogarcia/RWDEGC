@@ -1,0 +1,5 @@
+/*Snippet para crear imagenes responsivas*/
+img {
+    max-width: 100%;
+    display: block;
+}
